@@ -3,4 +3,3 @@ banana
 carrot
 dog
 elephant
-...
