@@ -86,7 +86,7 @@ Here are some popular word lists you can use:
 - **BIP-39 Word List:** Contains 2048 words, commonly used in cryptocurrency applications.
     - [Download BIP-39 List](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
 
-### How It Works
+## How It Works
 
 1. **Word List**: The generator uses a predefined or custom word list to select words randomly.
 
@@ -94,20 +94,20 @@ Here are some popular word lists you can use:
 
 3. Passphrase Construction: Words are combined with a separator (e.g., ```-```,``` ```, or ```_```) to create the final passphrase.
 
-### Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please:
 
 Open an issue on GitHub.
 
 Fork the repository and submit a pull request.
 
-### License
+## License
 This project is licensed under the MIT License. See the ```LICENSE``` file for details.
 
-### Acknowledgments
+## Acknowledgments
 Inspired by the [EFF Diceware](https://www.eff.org/dice) method.
 
 Uses Go's ```crypto/rand``` package for secure random number generation.
 
-### Support
+## Support
 If you find this project useful, please give it a ⭐ on GitHub! For questions or feedback, feel free to open an issue.
