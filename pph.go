@@ -111,5 +111,6 @@ func main() {
 		fmt.Println("Error generating passphrase:", err)
 		return
 	}
-	fmt.Println("Generated Passphrase:", passphrase)
+	fmt.Println(passphrase)
 }
+
